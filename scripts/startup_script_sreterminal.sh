@@ -6,9 +6,9 @@
 # A. Install SRE Terminal Tools
 # git, kubectl, yum-utils, terraform, packer
 # B. Clone the following respos in /home/repos folder
-# https://github.com/jaichenchlani/utilities.git
-# https://github.com/jaichenchlani/terraform_modules.git
-# https://github.com/jaichenchlani/gce_bootcamp.git
+# https://github.com/tonecode/utilities.git
+# https://github.com/tonecode/terraform_modules.git
+# https://github.com/tonecode/gce_bootcamp.git
 
 echo "***** Startup Script START *****"
 
@@ -49,15 +49,15 @@ pwd
 
 let "count++" # Clone utilities repo
 echo "$count) Cloning utilities repo..."
-git clone https://github.com/jaichenchlani/utilities.git
+git clone https://github.com/tonecode/utilities.git
 
 let "count++" # Clone Terraform Modules
 echo "$count) Cloning Terraform Modules..."
-git clone https://github.com/jaichenchlani/terraform_modules.git
+git clone https://github.com/tonecode/terraform_modules.git
 
 let "count++" # Clone GCE Bootcamp Udemy Course Demo code
 # https://www.udemy.com/course/google-cloud-gce-reliability-engineering-using-terraform
 echo "$count) Clone GCE Bootcamp Udemy Course Demo code..."
-git clone https://github.com/jaichenchlani/gce_bootcamp.git
+git clone https://github.com/tonecode/gce_bootcamp.git
 
 echo "***** Startup Script END *****"
